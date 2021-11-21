@@ -8,6 +8,8 @@
 <img src="/screenshots/Angular-Bootstrap-Dashboard-Bootstrap-Prototype.JPG" />
 
 
+### This app was made to practice with Angular and Typescript, also added bootstrap for enchancing UI
+
 
 ### Prerequisites
 What do you need to run this app:
