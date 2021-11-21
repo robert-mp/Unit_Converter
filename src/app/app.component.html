@@ -1,0 +1,54 @@
+<div class="app">
+
+  <header>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark " style="background-color: #181369;height: 100px;">
+      <a class="navbar-brand " routerLink="/">
+        <i class="p-4 fas {{icon}} fa-lg  text-white"></i>
+        <span class="p-1" style="color:white;font-weight: 800;">Unit Converter</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/">
+              Dashboard
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/distance">
+              Distance
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/volume">
+              Volume
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/speed">
+              Speed
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container-fluid bottom-margin">
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+
+  <div class="footer fixed-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="text-center text-white">&copy;Unit Converter 2021</p>
+        </div>
+      </div>
+    </div>
+  </div>

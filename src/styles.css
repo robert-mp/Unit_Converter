@@ -1,0 +1,16 @@
+body {
+  color: black;
+  font-weight: 400;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border-radius: 7px!important;
+  font-size: 19px!important;
+  padding: 7px!important;
+}
+
+.uneditable {
+  pointer-events: none!important;
+}

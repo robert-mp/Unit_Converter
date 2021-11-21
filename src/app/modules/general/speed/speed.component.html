@@ -1,0 +1,25 @@
+<h1 class="text-center mt-5 text-info">Speed Conversion</h1>
+<div class="row justify-content-center">
+  <div class="col-md-4 col-sm-12">
+    <form>
+    <div class="form-group col-md-12 pt-5">
+      <label for="unit">Select Converter</label>
+      <select id="inputState" class="form-control" [ngModelOptions]="{standalone: true}" [(ngModel)]="convertableUnits" (change)="changeUnits()">
+        <option value="kmphToMps" selected>Kmph to Mps</option>
+        <option value="kmphToKnots">Kmph to Knots</option>
+      </select>
+    </div>
+    <div class="form-group col-md-12 pt-3">
+      <label for="unit1">{{unit1}}</label>
+      <input type="text" class="form-control" id="unit1" [ngModelOptions]="{standalone: true}" [(ngModel)]="unit1Val">
+    </div>
+    <div class="form-group col-md-12 pt-3 uneditable">
+      <label for="unit2">{{unit2}}</label>
+      <input type="text" class="form-control uneditable" id="unit2" [ngModelOptions]="{standalone: true}" [(ngModel)]="unit2Val">
+    </div>
+    <div class="form-group col-md-12 pt-3">
+      <button type="button" (click) = "inputValue()">Convert</button>
+    </div>
+    </form>
+  </div>
+</div>

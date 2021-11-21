@@ -1,0 +1,22 @@
+.app main, .app footer {
+  padding-left: 1rem;
+}
+
+.footer {
+  background:#181369;
+  padding: 10px;
+}
+
+#navbarsExampleDefault {
+  background:#181369;
+  padding: 20px;
+}
+
+li {
+  margin-right: 28px;
+}
+
+.bottom-margin {
+  margin-bottom: 100px;
+
+}
